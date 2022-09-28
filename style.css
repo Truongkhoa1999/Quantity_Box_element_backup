@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-kerning: auto;
+}
+
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    padding: 20rem  ;
+
+}
+
+.container {
+width: 100vw;
+height: 50vh;
+background-color: green;
+
+display: flex;
+justify-content: center ;
+align-items: center;
+margin: auto;
+}
+
+.container button{
+    font-size: 5rem;
+    border: 2px solid black;
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    box-sizing: border-box;
+}
